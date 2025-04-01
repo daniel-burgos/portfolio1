@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Guest Video Series
 description: > 
   This is one of the guest series lecture videos that was produced for the Doctorate in Global Hospitality Leadership by me.
 image: 
