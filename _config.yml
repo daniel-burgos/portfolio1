@@ -288,18 +288,18 @@ hydejack:
 # Collections
 # ----------------------------------------------------------------------------------------
 
-collections:
-  featured_categories:
-    permalink:         /:name/
-    output:            false
+#collections:
+ # featured_categories:
+  #  permalink:         /:name/
+   # output:            false
 
-  featured_tags:
-    permalink:         /tag-:name/
-    output:            false
+ # featured_tags:
+  #  permalink:         /tag-:name/
+   # output:            false
 
-  projects:
-    permalink:         /projects/:path/
-    output:            true
+ # projects:
+  #  permalink:         /projects/:path/
+   # output:            true
 
 
 # File inclusion/exclusion
