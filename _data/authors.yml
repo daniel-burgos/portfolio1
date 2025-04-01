@@ -2,34 +2,38 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+  name:              Daniel Casanova
+  email:             dubcasanova@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    My name is Daniel Casanova, and I have a Master's in Curriculum and Instructional Design: Learning Design and Technology from the University of Houston. I am currently an Instructional Designer at the University of Houston College of Global Hospitality and Leadership. I have three years of teaching experience; the first two years I taught math, and the last year before my transition, I taught AP Computer Science.
     
-    Open `_data/authors.yml` to edit this text.
+    Throught my professional career I have integrated my personal love for technology into my career. This began during my first year teaching where I integrated the flipped classroom model to circumvent the issues the pandemic posed on education. From there I transitioned to teach AP Computer Science as I continued to pursue my love for technology and learning. During my time there I taught students HTML, CSS, Python and Javascript; I helped 8/10 students score a 3/5 or above on the AP Computer Science test.
+
+    In my current role as an instructional designer, I create videos and templates for the college using Final Cut Pro and HTML/CSS. I consult with professors on best practices when using Canvas and deliver trainings on online accessibility, and new software for professors and students. I also create educational materials using Articulate 360/Storyline, and assist in updating educational content for the creation of the upcoming online master's/bachelor's program hosted by the University of Houston.
+
 
   # This photo will be used in the about section
-  picture:
-    path:            https://via.placeholder.com/128x128
+  picture: 
+    path:  /assets/img/Profile_Photo.png
+
+    
+    #/assets/img/Profile_Picture.png
+    
     # srcset is optional, but can be used to provide higher res versions for retina displays
-    srcset:
-      1x:            https://via.placeholder.com/128x128
-      2x:            https://via.placeholder.com/256x256
+    #srcset: /assets/img/dc-power.png
+      #1x:      /assets/img/dc-power.png      
+      #2x:       /assets/img/dc-power.png     
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
-  # You can also provide an absolute URL (starting with https://) instead of usernames
   social:
-    twitter:         <username>
-    github:          <username>
-    # email:           <mail@domain.tld>
+    #twitter:         <username>
+    #github:          <username>
+     email:           dubcasanova@gmail.com
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -58,40 +62,26 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
+     linkedin:        daniel-casanova-58248420b
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
     # stumbleupon:     <username>
     # paypal:          <username>
     # download:        <url>
-    # keybase:         <username>
-    # signal:          <group-invite-code>
-    # threads:         @<username>
-    # playstation:     https://<url>
-    # messenger:       https://<url>
-    # stripe:          https://<url>
-    # slack:           https://<url>
-    # gitlab:          <username>
-    # line:            <username>
-    # medium:          <path>
-    # xbox:            <gamer-tag>
-    # wechat:          https://<url>
-    # discord:         <invite-code>
-    # mastodon:        https://<url>
-    # x:               <username>
+    # keybase          <username>
 
 # Another author (optional)
-author2:
-  name:              <firtname> <lastname>
-  email:             <mail@domain.tld>
-  about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+#author2:
+  #name:              <firtname> <lastname>
+  #email:             <mail@domain.tld>
+  #about:             |
+    #Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    #sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    #Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-    Open `_data/authors.yml` to edit this text.
+    #Open `_data/authors.yml` to edit this text.
 
-  picture:           https://placehold.it/128x128
-  twitter:           <username>
-  github:            <username>
+  #picture:           https://placehold.it/128x128
+  #twitter:           <username>
+  #github:            <username>
