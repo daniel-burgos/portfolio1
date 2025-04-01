@@ -1,4 +1,4 @@
-# Strings
+ # Strings
 # =======================================================================================
 # This file contains all soft-coded strings of the theme.
 # You can edit them here if you want to change the wording of certain phrases,
@@ -69,12 +69,12 @@ error:
 
 # Separators
 # ---------------------------------------------------------------------------------------
-posted:                'Posted'
+#posted:                'Posted'
 last_modified_at:      'Last modified at'
 last_modified_at_icon: 'icon-history'
 colon:                 ':'
 separator:             '|'
-category_start:        'in '
+#category_start:        'in '
 category_spearator:    ' / '
 tag_start:             'on '
 tag_separator:         ', '
