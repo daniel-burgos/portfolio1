@@ -8,5 +8,22 @@ no_link_title: false
 no_excerpt: True
 hide_image: false
 cover: true
-{% include components/portfolio.html %}
+{% assign projects = site.categories.projects %}
+
+{% if projects %}
+  <div class="project-list">
+    {% for post in projects %}
+      <article class="project-card">
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        {% if post.image %}
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+        {% endif %}
+        <p>{{ post.excerpt }}</p>
+      </article>
+    {% endfor %}
+  </div>
+{% else %}
+  <p>No projects yet.</p>
+{% endif %}
+
 ---
