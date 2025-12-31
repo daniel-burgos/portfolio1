@@ -4,4 +4,4 @@ title: "College Templates"
 categories:
   - projects
 ---
-A collection of templates created for the college.
+Below you will find a series of images for a couple of the templates I helped createfor several of our education programs.
