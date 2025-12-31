@@ -4,4 +4,4 @@ title: "Lecture Videos"
 categories:
   - projects
 ---
-A collection of lecture videos and recorded tutorials.
+Below you will find a couple of lecture videos that were created for several online courses. The videos were directed, produced, and edited by me.
