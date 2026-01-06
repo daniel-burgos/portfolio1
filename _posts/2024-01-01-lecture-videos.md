@@ -9,7 +9,7 @@ Below you will find a montage of a couple of lecture videos that were created fo
 <iframe
   src="https://drive.google.com/file/d/1gZkLfFzm1B7ZBiEPRJUdmWLaRsPUlIFt/preview"
   width="100%"
-  height="3840"
+  height="720"
   frameborder="0"
   allowfullscreen>
 </iframe>
