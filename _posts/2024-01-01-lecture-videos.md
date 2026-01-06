@@ -4,4 +4,12 @@ title: "Lecture Videos"
 categories:
   - projects
 ---
-Below you will find a couple of lecture videos that were created for several online courses. The videos were directed, produced, and edited by me.
+Below you will find a montage of a couple of lecture videos that were created for several online courses. The videos were directed, produced, and edited by me.
+
+<iframe
+  src="https://drive.google.com/file/d/1gZkLfFzm1B7ZBiEPRJUdmWLaRsPUlIFt/view?usp=share_link"
+  width="100%"
+  height="3840"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
