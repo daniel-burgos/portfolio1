@@ -8,7 +8,7 @@ categories:
 Here are other items I have worked on.   
 
 <div class="canvas-templates">
-  {% assign images = site.static_files | where_exp: "file", "file.path contains '/assets/img/CanvasTemplates/'" %}
+  {% assign images = site.static_files | where_exp: "file", "file.path contains 'assets/img/CanvasTemplates'" %}
   {% for image in images %}
     <a href="{{ image.path }}" target="_blank">
       <img src="{{ image.path }}" alt="Canvas template image">
