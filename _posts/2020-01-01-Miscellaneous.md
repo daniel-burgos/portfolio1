@@ -19,24 +19,22 @@ Here are other items I have worked on.
 
 
 .canvas-templates {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: 1rem;
-  margin-top: 2rem;
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)) !important;
+  gap: 1rem !important;
+}
+
+.canvas-templates a {
+  display: block !important;
 }
 
 .canvas-templates img {
-  width: 100%;
-  height: 160px;
-  object-fit: cover;
+  width: 100% !important;
+  height: 160px !important;
+  object-fit: cover !important;
   border-radius: 10px;
-  transition: transform .2s ease, box-shadow .2s ease;
 }
 
-.canvas-templates img:hover {
-  transform: scale(1.04);
-  box-shadow: 0 6px 18px rgba(0,0,0,.25);
-}
 
 
 <iframe
