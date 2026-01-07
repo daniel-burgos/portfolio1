@@ -4,7 +4,7 @@ title: "College Templates"
 categories:
   - projects
 ---
-Below you will find a series of images for a couple of the templates I helped createfor several of our education programs.
+Below you will find a series of images for a couple of the templates I helped create for several of our education programs.
 
 <div class="canvas-templates">
   {% for file in site.static_files %}
