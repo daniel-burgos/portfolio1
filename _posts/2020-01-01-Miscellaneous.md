@@ -8,13 +8,15 @@ categories:
 Here are other items I have worked on.   
 
 <div class="canvas-templates">
-  {% assign images = site.static_files | where_exp: "file", "file.path contains 'assets/img/CanvasTemplates/'" %}
-  {% for image in images %}
-    <a href="{{ image.path }}" target="_blank">
-      <img src="{{ image.path }}" alt="Canvas template image">
-    </a>
+  {% for file in site.static_files %}
+    {% if file.path contains '/assets/img/CanvasTemplates/' %}
+      <a href="{{ site.baseurl }}{{ file.path }}" target="_blank">
+        <img src="{{ site.baseurl }}{{ file.path }}" alt="Canvas template">
+      </a>
+    {% endif %}
   {% endfor %}
 </div>
+
 
 .canvas-templates {
   display: grid;
