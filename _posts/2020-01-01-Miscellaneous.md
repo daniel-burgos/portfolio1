@@ -7,16 +7,6 @@ categories:
 
 Here are other items I have worked on.   
 
-<div class="canvas-templates">
-  {% for file in site.static_files %}
-    {% if file.path contains '/assets/img/CanvasTemplates/' %}
-      <a href="{{ site.baseurl }}{{ file.path }}" target="_blank">
-        <img src="{{ site.baseurl }}{{ file.path }}" alt="Canvas template">
-      </a>
-    {% endif %}
-  {% endfor %}
-</div>
-
 
 
 <iframe
