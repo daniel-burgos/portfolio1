@@ -23,7 +23,7 @@ Here are other items I have worked on.
   margin-top: 2rem;
 }
 
-.gallery img {
+.Canvas Templates {
   width: 100%;
   height: 160px;
   object-fit: cover;
@@ -31,7 +31,7 @@ Here are other items I have worked on.
   transition: transform .2s ease, box-shadow .2s ease;
 }
 
-.gallery img:hover {
+.Canvas Templates:hover {
   transform: scale(1.04);
   box-shadow: 0 6px 18px rgba(0,0,0,.25);
 }
