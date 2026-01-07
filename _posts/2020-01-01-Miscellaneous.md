@@ -18,24 +18,6 @@ Here are other items I have worked on.
 </div>
 
 
-.canvas-templates {
-  display: grid !important;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)) !important;
-  gap: 1rem !important;
-}
-
-.canvas-templates a {
-  display: block !important;
-}
-
-.canvas-templates img {
-  width: 100% !important;
-  height: 160px !important;
-  object-fit: cover !important;
-  border-radius: 10px;
-}
-
-
 
 <iframe
   src="https://drive.google.com/file/d/1K9UyKRUdRsYoHPkYKL3QJsJjNXGYoq_5/preview"
