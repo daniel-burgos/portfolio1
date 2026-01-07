@@ -8,10 +8,10 @@ categories:
 Here are other items I have worked on.   
 
 <div class="canvas-templates">
-  {% assign images = site.static_files | where_exp: "file", "file.path contains 'assets/img/CanvasTemplates/'" %}
+  {% assign images = site.static_files | where_exp: "file", "file.path contains '/assets/img/CanvasTemplates/'" %}
   {% for image in images %}
     <a href="{{ image.path }}" target="_blank">
-      <img src="{{ image.path }}" alt="Gallery image">
+      <img src="{{ image.path }}" alt="Canvas template image">
     </a>
   {% endfor %}
 </div>
@@ -23,7 +23,7 @@ Here are other items I have worked on.
   margin-top: 2rem;
 }
 
-.canvas-templates {
+.canvas-templates img {
   width: 100%;
   height: 160px;
   object-fit: cover;
@@ -31,10 +31,11 @@ Here are other items I have worked on.
   transition: transform .2s ease, box-shadow .2s ease;
 }
 
-.canvas-templates:hover {
+.canvas-templates img:hover {
   transform: scale(1.04);
   box-shadow: 0 6px 18px rgba(0,0,0,.25);
 }
+
 
 <iframe
   src="https://drive.google.com/file/d/1K9UyKRUdRsYoHPkYKL3QJsJjNXGYoq_5/preview"
