@@ -316,6 +316,7 @@ exclude:
 include:
   - .well-known
   - LICENSE.md
+  - assets
 
 
 # Plugins
