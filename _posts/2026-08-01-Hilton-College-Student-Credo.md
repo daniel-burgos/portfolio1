@@ -12,7 +12,7 @@ Incoming students arrive on campus without a clear understanding of college cult
 Over a two-month production period, I served as director, director of photography, camera operator, lead sound manager, and editor for the project. The production involved 18 faculty actors and backup performers, supported by an eight-person crew. Rather than relying on a traditional written format, the project used humor and the reversal of roles by casting professors as students engaging in behaviors they would typically discourage. The completed film was distributed through multiple channels, including the college's Welcome Picnic, email communications to the college community, and a shortened trailer version created specifically for alumni, donors, and other stakeholders.
 <h3><strong>Outcome</strong></h3>
 The film was enthusiastically received by students, faculty, and staff, generating widespread positive feedback across the college community. Students immediately began asking about a potential sequel and whether the project would become an annual tradition. The project served as a creative example of how storytelling and humor can strengthen our Hilton community, while serving a the educational purpose of college expectations.
-
+<br>
 
 <iframe
   src="https://drive.google.com/file/d/1UkninieEibp-9G5JmQX5RwSXdgRFFN9i/preview"
